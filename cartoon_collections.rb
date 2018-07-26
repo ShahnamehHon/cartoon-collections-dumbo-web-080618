@@ -1,5 +1,5 @@
 def roll_call_dwarves(names)
-  names.each.with_index(1) {|n, i| puts n.concat(i)}
+  names.each.with_index(1) {|n, i| puts "#{i} #{n}"}
 end
 
 def summon_captain_planet# code an argument here
